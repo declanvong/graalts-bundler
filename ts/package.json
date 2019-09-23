@@ -1,0 +1,8 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
+}
