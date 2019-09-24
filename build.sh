@@ -1,6 +1,11 @@
 echo "Compiling TS"
-tsc -p ./ts
+pushd ts
+yarn build
+popd
 echo "Compiling Java"
-javac -d ./dist ./executor/Executor.java
-echo "Running"
-cd dist && java Executor
+pushd executor
+./build.sh
+popd
+echo "Done!"
+echo
+#java -jar executor/dist/Executor.jar
