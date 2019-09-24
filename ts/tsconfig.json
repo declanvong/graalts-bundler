@@ -7,7 +7,7 @@
     "target": "es6",
     "sourceMap": true,
     "baseUrl": "src",
-    "rootDir": ".",
+    "rootDir": "."
   },
   "include": ["src", "config"]
 }

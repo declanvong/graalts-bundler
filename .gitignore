@@ -3,3 +3,4 @@ node_modules
 tsconfig.tsbuildinfo
 .DS_Store
 executor/src/resources/index.js
+yarn-error.log
